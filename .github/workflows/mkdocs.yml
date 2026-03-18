@@ -27,5 +27,5 @@ jobs:
           mkdocs-glightbox mkdocs-macros-plugin \
           mkdocs-include-markdown-plugin mkdocs-redirects
 
-      - name: deploy
-        run: mkdocs gh-deploy --force
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force --remote-url https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/jimraynor88/testing.git
