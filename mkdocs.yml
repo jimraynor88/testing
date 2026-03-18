@@ -37,6 +37,7 @@ plugins:
   - section-index
   - rss
   - blogging:
+      locale: es
       dirs:
         - posts
   - git-revision-date-localized:
