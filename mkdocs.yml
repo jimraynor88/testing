@@ -1,5 +1,5 @@
 site_name: Testing Full
-site_url: https://TUUSUARIO.github.io/testing
+site_url: https://jimraynor88.github.io/testing
 
 theme:
   name: material
@@ -16,8 +16,6 @@ theme:
         icon: material/weather-night
         name: Dark mode
   features:
-    - navigation.instant
-    - navigation.instant.prefetch
     - navigation.tracking
     - navigation.sections
     - navigation.expand
@@ -39,7 +37,8 @@ plugins:
   - section-index
   - rss
   - blogging:
-      post_dir: posts
+      dirs:
+        - posts
   - git-revision-date-localized:
       enable_creation_date: true
   - git-authors
