@@ -1,10 +1,16 @@
-# ─────────────────────────────────────────────────────────────
-# Ejemplo footer.html (overrides/partials/footer.html)
+# overrides/partials/footer.html
 <footer>
   <div class="footer-content">
     <p>© 2026 Jim Raynor</p>
-    <a id="kofi-button" href="#" onclick="kofiWidgetOverlay.draw('invito', { 'type':'overlay' }); return false;">
-      <i class="fas fa-mug-hot"></i> Invítame al Ko-Fi
-    </a>
+    <div id="kofi-widget"></div>
   </div>
+  <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
+  <script>
+    kofiWidgetOverlay.draw('invito', {
+      type: 'standard',
+      'button.text': 'Invítame un café',
+      'button.background-color': '#ffffff',
+      'button.text-color': '#323842'
+    });
+  </script>
 </footer>
