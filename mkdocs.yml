@@ -1,0 +1,52 @@
+# ─────────────────────────────────────────────────────────────
+# mkdocs.yml principal (raíz del repo)
+site_name: Jim Raynor Test
+site_url: https://testing.jim88.pp.ua
+repo_url: ""
+edit_uri: ""
+
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    scheme: slate
+  highlightjs: true
+
+extra_css:
+  - assets/stylesheets/kofi.css
+
+extra_javascript:
+  - https://storage.ko-fi.com/cdn/scripts/overlay-widget.js
+  - js/kofi_button.js
+
+plugins:
+  - search
+  - awesome-pages
+  - section-index
+  - rss
+  - blogging:
+      locale: es
+  - git-revision-date-localized
+  - git-authors
+  - minify
+  - glightbox
+  - macros
+  - include-markdown
+  - redirects
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - pymdownx.superfences
+  - tables
+  - attr_list
+
+extra:
+  social:
+    - icon: fontawesome/solid/mug-hot
+      link: https://ko-fi.com/invito
+      name: Invítame al Ko-Fi
