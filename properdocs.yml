@@ -27,9 +27,7 @@ plugins:
   - search
   - redirects
   - bettertags
-  - awesome-pages
   - section-index
-  - rss
 
 markdown_extensions:
   - admonition
