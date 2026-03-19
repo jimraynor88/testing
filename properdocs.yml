@@ -62,6 +62,9 @@ markdown_extensions:
 nav:
   - Inicio: index.md
   - Acerca de: about.md
+  - Experiencia: experiencia.md
+  - Educación: educacion.md
+  - Habilidades: habilidades.md
 
 extra:
   social:
