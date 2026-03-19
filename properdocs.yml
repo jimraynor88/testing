@@ -67,6 +67,6 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/jimraynor88
-    - icon: fontawesome/brands/kofi
+    - icon: fontawesome/solid/mug-hot
       link: https://ko-fi.com/invito
-      name: Invítame al Ko-Fi  # Texto que aparece al pasar el ratón
+      name: Invítame al Ko-Fi
