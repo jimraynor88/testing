@@ -1,9 +1,8 @@
-site_name: ProperDocs Testing
+site_name: Mi Documentación de Prueba
 site_description: Probando ProperDocs con Material y Curriculum-Vitae
-site_author: Jim Raynor
+site_author: Tu Nombre
 repo_url: https://github.com/jimraynor88/testing
 
-# Por defecto usamos Material, pero puedes cambiar a curriculum-vitae comentando/descomentando
 theme:
   name: material
   palette:
@@ -19,12 +18,11 @@ theme:
     - toc.integrate
     - search.suggest
     - search.highlight
-  # Si quieres probar curriculum-vitae, descomenta las siguientes líneas y comenta las de arriba
+  # Tema curriculum-vitae comentado para probar después
   # name: curriculum-vitae
-  # # Opciones para curriculum-vitae
   # name: Tu Nombre Completo
   # tagline: Desarrollador / Ingeniero
-  # avatar: https://ejemplo.com/foto.jpg   # o ruta local
+  # avatar: https://ejemplo.com/foto.jpg
   # personnal_links:
   #   github: https://github.com/jimraynor88
   #   linkedin: https://linkedin.com/in/tu-usuario
@@ -64,12 +62,11 @@ markdown_extensions:
 nav:
   - Inicio: index.md
   - Acerca de: about.md
-  # Para curriculum-vitae, añade más secciones:
-  # - Experiencia: experiencia.md
-  # - Educación: educacion.md
-  # - Habilidades: habilidades.md
 
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/jimraynor88
+    - icon: fontawesome/brands/kofi
+      link: https://ko-fi.com/invito
+      name: Invítame al Ko-Fi  # Texto que aparece al pasar el ratón
