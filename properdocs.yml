@@ -1,0 +1,75 @@
+site_name: ProperDocs Testing
+site_description: Probando ProperDocs con Material y Curriculum-Vitae
+site_author: Jim Raynor
+repo_url: https://github.com/jimraynor88/testing
+
+# Por defecto usamos Material, pero puedes cambiar a curriculum-vitae comentando/descomentando
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+  # Si quieres probar curriculum-vitae, descomenta las siguientes líneas y comenta las de arriba
+  # name: curriculum-vitae
+  # # Opciones para curriculum-vitae
+  # name: Tu Nombre Completo
+  # tagline: Desarrollador / Ingeniero
+  # avatar: https://ejemplo.com/foto.jpg   # o ruta local
+  # personnal_links:
+  #   github: https://github.com/jimraynor88
+  #   linkedin: https://linkedin.com/in/tu-usuario
+  # address: "Tu ciudad, País"
+  # phone: "+34 123 456 789"
+  # email: tu@email.com
+
+plugins:
+  - search
+  - redirects
+  - bettertags
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist
+  - pymdownx.tilde
+
+nav:
+  - Inicio: index.md
+  - Acerca de: about.md
+  # Para curriculum-vitae, añade más secciones:
+  # - Experiencia: experiencia.md
+  # - Educación: educacion.md
+  # - Habilidades: habilidades.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/jimraynor88
